@@ -16,7 +16,6 @@ int main() {
     cliente.mostrarInformacion();
     cout << "\nTrabajador:" << endl;
     trabajador.mostrarInformacion();
-    cout << "----------------------" << endl;
 
     // Realizar cambios utilizando polimorfismo
     vector<Persona*> personas;
