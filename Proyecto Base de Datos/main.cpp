@@ -24,7 +24,6 @@ int main() {
 
     for (const auto& persona : personas) {
         persona->mostrarInformacion();
-        cout << "----------------------" << endl;
     }
 
     // Liberar la memoria
